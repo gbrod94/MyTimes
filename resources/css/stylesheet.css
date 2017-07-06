@@ -8,12 +8,14 @@ header {
   height: 80px;
   border-bottom: solid 1px black;
   display: flex;
-  align-items: center;
+  align-content: center;
   justify-content: space-between;
       }
-      
+
 #logo {
   color: MediumAquamarine;
+  display: flex;
+  align-items: center;  
   }
 
 
