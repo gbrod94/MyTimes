@@ -1,5 +1,7 @@
+/* navigation bar */
 
 header {
+  background-color: white;
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
@@ -8,8 +10,9 @@ header {
   height: 80px;
   border-bottom: solid 1px black;
   display: flex;
-  align-content: center;
+  align-items: center;
   justify-content: space-between;
+  flex-grow: 1;
       }
 
 nav {
@@ -28,10 +31,44 @@ a {
   display: flex;
   align-items: center;
   padding-left: 30px;
+  flex-grow: 1;
   }
+
+#logo img {
+  margin-right: 12px;
+}
 
 
 nav span {
   display: inline-block;
   padding: 20px 10px;
     }
+
+ /* Main content */
+
+div {
+  border: solid 1px black;
+}
+#main {
+   padding-top: 81px;
+   display: flex;
+
+   }
+
+.column {
+display: flex;
+flex-direction: column;
+margin-right: 32px;
+   }
+
+.column.large {
+  width: 630px;
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
+}
