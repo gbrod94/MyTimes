@@ -12,10 +12,22 @@ header {
   justify-content: space-between;
       }
 
+nav {
+  padding-right: 30px;
+  display: flex;
+  align-items: center;
+}
+
+a {
+  text-decoration: underline;
+  color: black;
+}
+
 #logo {
   color: MediumAquamarine;
   display: flex;
-  align-items: center;  
+  align-items: center;
+  padding-left: 30px;
   }
 
 
