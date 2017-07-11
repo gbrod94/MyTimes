@@ -102,6 +102,7 @@ padding-bottom: 30px;
   display: flex;
   justify-content: space-between;
   margin-top: 17px;
+  width: 636px;
   }
 
 h2 {
@@ -117,6 +118,7 @@ h2 {
 
 .lead-story {
   display: block;
+  width: 636px;
 }
 
 .lead-story .image-content {
