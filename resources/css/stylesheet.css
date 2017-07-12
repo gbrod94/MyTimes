@@ -101,6 +101,7 @@ padding-bottom: 30px;
 .stories {
   display: flex;
   justify-content: space-between;
+  font-family: Georgia;
   margin-top: 17px;
   width: 636px;
   }
